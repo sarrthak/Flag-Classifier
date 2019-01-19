@@ -1,4 +1,7 @@
 # Flag-Classifier
-Uses a SVM and K Nearest Neighbor to classify flags and make predictions about test flags (Not very accurate yet).
+Uses a SVM to classify flags and make predictions about test flags.
 
-Some changes to the information inputted into the dataframe has led to more reasonable predictions, but not accurate predictions. The program should either look at more pixels or fix the color issue.
+The model makes pretty good predictions most of the time and any time it makes a mistake in identifying a flag, the prediction won't be too far off of what it should be.
+
+# Future Changes
+Fixing the coloring issue could help improve the accuracy of the model as it often confuses flags that have similar colors. 
